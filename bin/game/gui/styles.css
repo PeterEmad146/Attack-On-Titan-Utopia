@@ -1,0 +1,52 @@
+.exit-button-container .button {
+	-fx-background-color: #ff0000;
+	-fx-text-fill: white;
+	-fx-font-size: 12px;
+	-fx-font-weight: bold;
+	-fx-padding: 5px 10px;
+	-fx-border-radius: 5px;
+	-fx-background-radius: 5px;		
+}
+
+.exit-button-container .button:hover {
+	-fx-background-color: #cc0000;
+}
+
+.button.easy-mode-button {
+    -fx-background-color: #5cb85c;
+    -fx-text-fill: white;
+    -fx-border-color: #4cae4c;
+    -fx-padding: 10px 20px;
+    -fx-font-size: 16px; 
+    -fx-border-radius: 5px;
+	-fx-background-radius: 5px;		
+}
+
+.button.easy-mode-button:hover {
+    -fx-background-color: #4cae4c;
+}
+
+.button.easy-mode-button:pressed {
+	-fx-background-color: #09101D;
+	-fx-effect: innershadow(gaussian, rgba(0,0,0,0.3), 3, 0.5, 0, 0);
+}
+
+/* Style for the Hard Mode button */
+.button.hard-mode-button {
+    -fx-background-color: #d9534f; 
+    -fx-text-fill: white;
+    -fx-border-color: #c9302c;
+    -fx-padding: 10px 20px;
+    -fx-font-size: 16px;  
+    -fx-border-radius: 5px;
+	-fx-background-radius: 5px;		
+}
+
+.button.hard-mode-button:hover {
+    -fx-background-color: #c9302c;
+}
+
+.button.hard-mode-button:pressed{
+	-fx-background-color: #09101D;
+	-fx-effect: innershadow(gaussian, rgba(0,0,0,0.3), 3, 0.5, 0, 0);
+}
